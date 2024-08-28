@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  padding: 0;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1176px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.inner::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.content .title {
+  margin: 0 0 40px;
+  font:bold 28px 'Black Han Sans';
+  text-align: center;
+}
+
+.content .txt {
+  margin: 0 0 60px;
+  font: 14px 'Black Han Sans';
+}
+
+#header {
+  width: 100%;
+  height: auto;
+}
+
+#visual {
+  display: block;
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+  background-color: #333;
+}
+
+.bg-logo {
+  width: 10%;
+  top: 30px;
+  right: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  object-fit: cover;
+  z-index: -1; /* bg가 다른 콘텐츠 뒤에 위치하도록 설정 */
+}
+
+.box01 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Black Han Sans';
+  text-align: center;
+  padding-top: 30vh; /* 페이지 로딩 시 글씨가 보이도록 상단에서부터 30% 아래로 시작 */
+  padding-bottom: 0;
+  z-index: 1; /* box01을 bg 앞에 오도록 설정 */
+}
+
+.box01 .title {
+  font-size: 45px;
+  margin-top: 10px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.box01 .subtitle {
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+.box01 .touch {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box01 .hand {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.box01 .touch p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.box02 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
+  background-color: #d11d4c;
+  padding-bottom: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.box02 .info {
+  width: 90%;
+  max-width: 450px;
+  height: auto;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.box02 .hand {
+  width: 30px;
+  margin-right: 10px;
+  height: auto;
+  display: inline-block;
+}
+
+.box02 p.btn {
+  margin: 0;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Black Han Sans';
+  color: #ffffff;
+  text-align: left;
+}
+
+.box02 a:hover {
+  background-color: #ffffff50;
+}
+
+.box02 a:visited {
+  background-color: #000000;
+}
+
+/* iPhone 15 Pro 최적화 */
+@media only screen and (max-width: 430px) {
+  .bg-logo {
+      width: 20%;
+      top: 15px;
+      right: 15px;
+  }
+
+  .box01 .title {
+      font-size: 30px;
+      margin-top: 10px;
+  }
+
+  .box01 .subtitle {
+      font-size: 20px;
+      margin-top: 30px;
+  }
+
+  .box01 .touch {
+      padding-top: 10px;
+  }
+
+  .box01 .touch p {
+      font-size: 18px;
+  }
+
+  .box02 {
+      height: 160px;
+      padding-bottom: 10px;
+  }
+
+  .box02 .info {
+      padding: 10px 20px;
+      margin-top: 10px;
+  }
+
+  .box02 p.btn {
+      font-size: 20px;
+  }
+}

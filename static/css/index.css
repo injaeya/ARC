@@ -1,0 +1,28 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* 텍스트 색상을 하얀색으로 설정 */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트에 그림자 추가 */
+}
+.welcome-text {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.enter-button {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* 버튼 배경 투명도 조절 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.enter-button:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* 버튼 호버 효과 */
+}

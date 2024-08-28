@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+      - ./logs:/app/logs  # 로그 디렉토리를 호스트와 공유
+    ports:
+      - "30000:8000"
+    environment:
+      DJANGO_ALLOWED_HOSTS: "192.168.1.210"
+    container_name: Ramen
+    restart: always

@@ -1,0 +1,131 @@
+2024-08-28 15:06:50,546 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:07:36,752 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:07:37,192 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:08:26,531 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:08:26,938 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:11:19,648 django.utils.autoreload INFO /app/config/wsgi.py changed, reloading.
+2024-08-28 15:11:20,075 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:11:29,754 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:11:33,483 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:11:34,955 django INFO 0
+2024-08-28 15:11:35,169 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-28 15:11:37,210 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 15:11:37,246 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-28 15:12:37,413 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:12:37,793 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:15:13,398 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:15:14,001 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:15:37,258 django.utils.autoreload INFO /app/config/wsgi.py changed, reloading.
+2024-08-28 15:15:37,634 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:15:40,455 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:15:48,992 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:16:07,068 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:16:08,224 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 15:16:31,816 django.utils.autoreload INFO /app/config/wsgi.py changed, reloading.
+2024-08-28 15:16:32,251 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:16:34,926 django.utils.autoreload INFO /app/config/wsgi.py changed, reloading.
+2024-08-28 15:16:35,343 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:16:48,693 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:16:49,147 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:16:57,614 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:17:05,229 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:17:11,626 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:18:26,475 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:19:29,089 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:19:34,566 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:19:37,706 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:19:41,690 django.server INFO "GET /Ramen/index05/?count=3 HTTP/1.1" 200 1537
+2024-08-28 15:19:43,791 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 15:20:43,362 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 15:20:43,889 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:20:47,018 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:20:48,472 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:20:51,511 django.server INFO "GET /Ramen/index05/?count=4 HTTP/1.1" 200 1537
+2024-08-28 15:20:53,549 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 15:20:53,578 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-28 15:21:23,716 django.utils.autoreload INFO /app/config/wsgi.py changed, reloading.
+2024-08-28 15:21:24,109 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:21:27,975 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:21:29,649 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:21:31,898 django INFO 3
+2024-08-28 15:21:32,113 django.server INFO "GET /Ramen/index05/?count=3 HTTP/1.1" 200 1537
+2024-08-28 15:21:34,158 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 15:21:36,827 django INFO 초기협동부팅
+2024-08-28 15:21:36,831 django INFO robotControl -on
+
+2024-08-28 15:21:46,840 django INFO brakeRelease
+
+2024-08-28 15:21:46,850 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-28 15:22:38,193 django.utils.autoreload INFO /app/Ramen/views/index_0_cspower_on.py changed, reloading.
+2024-08-28 15:22:38,578 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:22:42,190 django INFO 초기협동부팅
+2024-08-28 15:22:52,217 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-28 15:23:42,663 django.utils.autoreload INFO /app/Ramen/views/index_0_cspower_on.py changed, reloading.
+2024-08-28 15:23:43,079 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:23:45,568 django INFO 초기협동부팅
+2024-08-28 15:23:45,571 django INFO : 협동전원 On
+2024-08-28 15:23:55,576 django INFO : 협동브레이크 off
+2024-08-28 15:23:55,588 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-28 15:23:58,000 django.utils.autoreload INFO /app/Ramen/views/index_0_cspower_on.py changed, reloading.
+2024-08-28 15:23:58,341 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:24:21,364 django.utils.autoreload INFO /app/Ramen/views/index_5_oder_comp.py changed, reloading.
+2024-08-28 15:24:21,750 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:24:23,453 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:24:24,776 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:24:28,388 django INFO : 주문수량 4
+2024-08-28 15:24:28,602 django.server INFO "GET /Ramen/index05/?count=4 HTTP/1.1" 200 1537
+2024-08-28 15:24:30,726 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 15:24:45,062 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 15:24:45,120 django.utils.autoreload INFO /app/Ramen/views/index_5_oder_comp.py changed, reloading.
+2024-08-28 15:24:45,604 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 15:24:46,030 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 15:24:48,062 django INFO : 주문수량 : 3
+2024-08-28 15:24:48,273 django.server INFO "GET /Ramen/index05/?count=3 HTTP/1.1" 200 1537
+2024-08-28 15:24:50,317 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:08:30,295 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 16:08:52,708 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 16:08:57,274 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 16:09:03,826 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:10:12,027 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 16:10:12,462 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 16:10:19,816 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:10:19,862 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-28 16:10:24,293 django INFO : 주문수량 : 0
+2024-08-28 16:10:24,510 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-28 16:10:26,574 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:10:26,616 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-28 16:11:09,633 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 16:11:10,033 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 16:11:17,058 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:11:19,112 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:11:21,967 django INFO : 주문수량 : 5
+2024-08-28 16:11:22,177 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-28 16:11:24,222 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:11:50,844 django.utils.autoreload INFO /app/config/settings.py changed, reloading.
+2024-08-28 16:12:04,977 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-28 16:12:36,920 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:12:45,906 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:13:32,180 django INFO : 주문수량 : 0
+2024-08-28 16:13:32,390 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-28 16:13:34,424 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:17:25,217 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:17:26,933 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:17:28,187 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:17:29,250 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:17:29,863 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:17:35,299 django INFO : 주문수량 : 6
+2024-08-28 16:17:35,510 django.server INFO "GET /Ramen/index05/?count=6 HTTP/1.1" 200 1537
+2024-08-28 16:17:35,846 django INFO : 주문수량 : 6
+2024-08-28 16:17:36,059 django.server INFO "GET /Ramen/index05/?count=6 HTTP/1.1" 200 1537
+2024-08-28 16:17:37,687 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:17:38,100 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:17:41,956 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:17:42,740 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-28 16:17:43,715 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:17:44,365 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-28 16:17:55,830 django INFO : 주문수량 : 3
+2024-08-28 16:17:56,044 django.server INFO "GET /Ramen/index05/?count=3 HTTP/1.1" 200 1537
+2024-08-28 16:17:57,884 django INFO : 주문수량 : 5
+2024-08-28 16:17:58,077 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:17:58,101 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-28 16:18:00,140 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
