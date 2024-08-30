@@ -1,3 +1,7 @@
+/* NOTE: 수정 : 2024.08.30 작성자 : 이인재 // 글씨 겹치는 부분 수정*/
+
+
+
 *{margin: 0; padding: 0; box-sizing: border-box;}
 *::before, 
 *::after{margin: 0; padding: 0; box-sizing: border-box;}
@@ -10,7 +14,6 @@ a{text-decoration: none;}
 
 .content .title{margin: 0 0 40px; font:bold 28px 'Black Han Sans'; text-align: center;}
 .content .txt{margin: 0 0 60px; font: 14px 'Black Han Sans'}
-
 
 @media screen and (max-width: 1200px){ 
   .inner{width: 100%; height: auto;}
@@ -67,7 +70,35 @@ a{text-decoration: none;}
 @media screen and (max-width: 640px){ 
 }
 @media screen and (max-width: 480px){ 
-  #type1 .box01{width: 100%; } /* 한 줄 → 여러 줄*/
+  #type1 .box01 {
+    width: 100%; 
+    margin-bottom: 120px; /* .box02와의 간격을 충분히 확보 */
+  }
+  
+  .box01 .title {
+    font-size: 40px; /* 텍스트 크기를 줄여 공간 절약 */
+  }
+
+  .box01 .subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .box01 .touch {
+    padding-top: 30px; /* 상단 여백을 줄여 위치를 위로 이동 */
+    margin-bottom: 30px; /* 하단 여백을 추가 */
+  }
+
+  .box02 {
+    height: 250px; /* 높이를 줄여서 충분한 공간 확보 */
+  }
+
+  .box02 .info {
+    width: 200px; 
+    height: 80px; 
+    padding: 20px; 
+    margin-top: 60px;
+  }
 }
 
 
@@ -81,23 +112,22 @@ a{text-decoration: none;}
 
 .box02 a:hover {
   background-color: #ffffff50;
-  }
+}
 
-.box02 a:visited  {
-    background-color : #000000
-  }
+.box02 a:visited {
+    background-color : #000000;
+}
 
-  @media screen and (max-width: 1200px){ 
+@media screen and (max-width: 1200px){ 
+  .box02 .info{ width: 250px; height: 100px; padding: 30px; margin-top: 100px;}
+}
 
-.box02 .info{ width: 250px; height: 100px; padding: 30px; margin-top: 100px;}
-   
-  }
-  @media screen and (max-width: 980px){ 
-  }
-  @media screen and (max-width: 768px){ 
-  }
-  @media screen and (max-width: 640px){ 
-  }
-  @media screen and (max-width: 480px){ 
-    #type1 .box01{width: 100%; } /* 한 줄 → 여러 줄*/
-  }
+@media screen and (max-width: 980px){ 
+}
+@media screen and (max-width: 768px){ 
+}
+@media screen and (max-width: 640px){ 
+}
+@media screen and (max-width: 480px){ 
+  #type1 .box01{width: 100%; } /* 한 줄 → 여러 줄*/
+}

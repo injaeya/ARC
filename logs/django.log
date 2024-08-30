@@ -129,3 +129,1489 @@
 2024-08-28 16:17:58,077 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
 2024-08-28 16:17:58,101 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
 2024-08-28 16:18:00,140 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-28 16:54:23,666 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 07:03:39,286 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-29 13:37:33,251 django INFO : 초기협동부팅
+2024-08-29 13:37:54,342 django INFO Traceback (most recent call last):
+
+2024-08-29 13:37:54,342 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-08-29 13:37:54,342 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-08-29 13:37:54,343 django INFO   File "/app/Ramen/views/index_0_cspower_on.py", line 23, in cs_poweron
+    ck=client_socket.connect((HOST, PORT))
+
+2024-08-29 13:37:54,343 django INFO ConnectionRefusedError: [Errno 111] Connection refused
+
+2024-08-29 13:37:54,337 django.request ERROR Internal Server Error: /
+2024-08-29 13:37:54,346 django INFO Traceback (most recent call last):
+
+2024-08-29 13:37:54,346 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-08-29 13:37:54,346 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-08-29 13:37:54,347 django INFO   File "/app/Ramen/views/index_0_cspower_on.py", line 23, in cs_poweron
+    ck=client_socket.connect((HOST, PORT))
+
+2024-08-29 13:37:54,347 django INFO ConnectionRefusedError: [Errno 111] Connection refused
+
+2024-08-29 13:37:54,348 django.server ERROR "GET / HTTP/1.1" 500 57747
+2024-08-29 13:37:54,365 django INFO : 초기협동부팅
+2024-08-29 13:37:56,422 django INFO Traceback (most recent call last):
+
+2024-08-29 13:37:56,422 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-08-29 13:37:56,422 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-08-29 13:37:56,423 django INFO   File "/app/Ramen/views/index_0_cspower_on.py", line 23, in cs_poweron
+    ck=client_socket.connect((HOST, PORT))
+
+2024-08-29 13:37:56,423 django INFO ConnectionRefusedError: [Errno 111] Connection refused
+
+2024-08-29 13:37:56,419 django.request ERROR Internal Server Error: /
+2024-08-29 13:37:56,426 django INFO Traceback (most recent call last):
+
+2024-08-29 13:37:56,426 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-08-29 13:37:56,426 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-08-29 13:37:56,427 django INFO   File "/app/Ramen/views/index_0_cspower_on.py", line 23, in cs_poweron
+    ck=client_socket.connect((HOST, PORT))
+
+2024-08-29 13:37:56,427 django INFO ConnectionRefusedError: [Errno 111] Connection refused
+
+2024-08-29 13:37:56,428 django.server ERROR "GET / HTTP/1.1" 500 57473
+2024-08-29 13:37:56,518 django.request WARNING Not Found: /favicon.ico
+2024-08-29 13:37:56,519 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-29 13:38:51,609 django INFO : 초기협동부팅
+2024-08-29 13:38:51,612 django INFO : 협동전원 On
+2024-08-29 13:39:01,622 django INFO : 협동브레이크 off
+2024-08-29 13:39:01,639 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-29 13:39:01,673 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-29 13:39:06,272 django INFO : 초기협동부팅
+2024-08-29 13:39:06,275 django INFO : 협동전원 On
+2024-08-29 13:39:16,285 django INFO : 협동브레이크 off
+2024-08-29 13:39:16,294 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-29 13:39:16,359 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-29 13:39:16,368 django.request WARNING Not Found: /favicon.ico
+2024-08-29 13:39:16,369 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-29 13:39:23,811 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:39:35,973 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:39:36,025 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 7122
+2024-08-29 13:39:36,026 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-29 13:39:36,043 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-29 13:39:36,110 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-29 13:39:36,169 django.server INFO "GET /static/img/voice--white.png HTTP/1.1" 200 10041
+2024-08-29 13:39:36,233 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-29 13:39:41,399 django INFO : 초기협동부팅
+2024-08-29 13:39:41,403 django INFO : 협동전원 On
+2024-08-29 13:39:51,413 django INFO : 협동브레이크 off
+2024-08-29 13:39:51,419 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-29 13:39:51,613 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-29 13:39:51,613 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-29 13:39:51,634 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-29 13:39:51,649 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-29 13:39:52,913 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-29 13:39:54,566 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:40:03,741 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:40:20,824 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:40:20,863 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-29 13:40:20,863 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 7122
+2024-08-29 13:40:20,881 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-29 13:40:20,885 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-29 13:40:20,887 django.server INFO "GET /static/img/voice--white.png HTTP/1.1" 200 10041
+2024-08-29 13:40:21,175 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-29 13:40:21,530 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-29 13:41:25,061 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:41:25,115 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-29 13:41:25,118 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-29 13:41:25,119 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-29 13:41:25,123 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-29 13:41:25,126 django.server INFO "GET /static/img/voice--white.png HTTP/1.1" 200 10041
+2024-08-29 13:41:25,427 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-29 13:41:43,104 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:41:43,167 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-29 13:42:04,425 django.server INFO "GET /Ramen/index03/ HTTP/1.1" 200 1662
+2024-08-29 13:42:04,470 django.server INFO "GET /static/img/back-19.png HTTP/1.1" 200 10537
+2024-08-29 13:42:04,471 django.server INFO "GET /static/css/style%2003.css HTTP/1.1" 200 2686
+2024-08-29 13:42:04,473 django.server INFO "GET /static/js/voice_order.js HTTP/1.1" 200 1543
+2024-08-29 13:42:04,495 django.security.csrf WARNING Forbidden (CSRF cookie not set.): /Ramen/test-microphone/
+2024-08-29 13:42:04,496 django.server WARNING "POST /Ramen/test-microphone/ HTTP/1.1" 403 3000
+2024-08-29 13:42:04,503 django.server INFO "GET /static/img/mic--white.png HTTP/1.1" 200 18094
+2024-08-29 13:42:33,182 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-29 13:42:33,225 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 3293
+2024-08-29 13:42:33,225 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-29 13:42:33,225 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-29 13:42:33,243 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-29 13:42:33,244 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-29 13:42:33,249 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-29 13:42:35,333 django INFO : 주문수량 : 0
+2024-08-29 13:42:35,551 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-29 13:42:35,692 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-29 13:42:35,693 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 2602
+2024-08-29 13:42:35,697 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-29 13:42:37,725 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-29 13:42:39,741 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 13:42:39,779 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 304 0
+2024-08-29 13:42:52,161 django.server INFO "GET /Ramen/index03/ HTTP/1.1" 200 1662
+2024-08-29 13:42:52,202 django.security.csrf WARNING Forbidden (CSRF cookie not set.): /Ramen/test-microphone/
+2024-08-29 13:42:52,202 django.server WARNING "POST /Ramen/test-microphone/ HTTP/1.1" 403 3000
+2024-08-29 13:42:59,765 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-29 13:43:00,535 django INFO : 주문수량 : 0
+2024-08-29 13:43:00,745 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-29 13:43:02,882 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-29 16:39:25,657 django.request WARNING Not Found: /favicon.ico
+2024-08-29 16:39:25,658 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-29 16:39:33,546 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 16:39:33,568 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 304 0
+2024-08-29 16:39:44,062 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 16:39:47,045 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-29 16:39:48,185 django INFO : 주문수량 : 0
+2024-08-29 16:39:48,403 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-29 16:39:50,473 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-29 16:39:50,511 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-29 16:39:58,624 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 16:40:00,226 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-29 16:40:02,535 django INFO : 주문수량 : 0
+2024-08-29 16:40:02,755 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-29 16:40:04,841 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-29 16:40:40,676 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 16:40:43,230 django.server INFO "GET /Ramen/index03/ HTTP/1.1" 200 1662
+2024-08-29 16:40:43,259 django.security.csrf WARNING Forbidden (CSRF cookie not set.): /Ramen/test-microphone/
+2024-08-29 16:40:43,260 django.server WARNING "POST /Ramen/test-microphone/ HTTP/1.1" 403 3000
+2024-08-29 16:41:08,387 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-29 16:41:30,759 django INFO : 초기협동부팅
+2024-08-29 16:41:30,763 django INFO : 협동전원 On
+2024-08-29 16:41:40,772 django INFO : 협동브레이크 off
+2024-08-29 16:41:40,780 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-29 16:41:40,893 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-29 16:41:40,894 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-29 16:41:41,121 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-29 16:41:41,135 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-29 16:41:41,914 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-29 16:41:42,308 django.request WARNING Not Found: /favicon.ico
+2024-08-29 16:41:42,309 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-29 16:41:45,759 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 16:41:45,821 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-29 16:41:45,825 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-29 16:41:45,867 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-29 16:41:45,887 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-29 16:41:45,888 django.server INFO "GET /static/img/voice--white.png HTTP/1.1" 200 10041
+2024-08-29 16:41:46,081 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-29 16:41:47,652 django.server INFO "GET /Ramen/index03/ HTTP/1.1" 200 1662
+2024-08-29 16:41:47,722 django.server INFO "GET /static/img/back-19.png HTTP/1.1" 200 10537
+2024-08-29 16:41:47,723 django.server INFO "GET /static/img/mic--white.png HTTP/1.1" 200 18094
+2024-08-29 16:41:47,727 django.server INFO "GET /static/css/style%2003.css HTTP/1.1" 200 2686
+2024-08-29 16:41:47,761 django.server INFO "GET /static/js/voice_order.js HTTP/1.1" 200 1543
+2024-08-29 16:41:47,773 django.security.csrf WARNING Forbidden (CSRF cookie not set.): /Ramen/test-microphone/
+2024-08-29 16:41:47,774 django.server WARNING "POST /Ramen/test-microphone/ HTTP/1.1" 403 3000
+2024-08-29 16:41:55,212 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-29 16:42:03,733 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-29 16:42:03,815 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-29 16:42:03,816 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-29 16:42:03,818 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 3293
+2024-08-29 16:42:03,833 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-29 16:42:03,837 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-29 16:42:03,842 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-29 16:42:11,106 django INFO : 주문수량 : 7
+2024-08-29 16:42:11,317 django.server INFO "GET /Ramen/index05/?count=7 HTTP/1.1" 200 1537
+2024-08-29 16:42:11,367 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 2602
+2024-08-29 16:42:11,372 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-29 16:42:11,376 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-29 16:42:13,424 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-29 16:42:49,082 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 07:05:11,813 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-08-30 09:34:56,900 django INFO : 초기협동부팅
+2024-08-30 09:35:17,982 django INFO Traceback (most recent call last):
+
+2024-08-30 09:35:17,983 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-08-30 09:35:17,983 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-08-30 09:35:17,984 django INFO   File "/app/Ramen/views/index_0_cspower_on.py", line 23, in cs_poweron
+    ck=client_socket.connect((HOST, PORT))
+
+2024-08-30 09:35:17,984 django INFO ConnectionRefusedError: [Errno 111] Connection refused
+
+2024-08-30 09:35:17,974 django.request ERROR Internal Server Error: /
+2024-08-30 09:35:17,986 django INFO Traceback (most recent call last):
+
+2024-08-30 09:35:17,987 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-08-30 09:35:17,987 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-08-30 09:35:17,987 django INFO   File "/app/Ramen/views/index_0_cspower_on.py", line 23, in cs_poweron
+    ck=client_socket.connect((HOST, PORT))
+
+2024-08-30 09:35:17,988 django INFO ConnectionRefusedError: [Errno 111] Connection refused
+
+2024-08-30 09:35:17,988 django.server ERROR "GET / HTTP/1.1" 500 57473
+2024-08-30 09:35:18,230 django.request WARNING Not Found: /favicon.ico
+2024-08-30 09:35:18,231 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 10:43:42,177 django INFO : 초기협동부팅
+2024-08-30 10:43:42,180 django INFO : 협동전원 On
+2024-08-30 10:43:52,192 django INFO : 협동브레이크 off
+2024-08-30 10:43:52,211 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 10:43:52,311 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 10:43:54,517 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 10:43:54,582 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 304 0
+2024-08-30 10:43:54,585 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 304 0
+2024-08-30 10:43:54,599 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 10:44:09,034 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 10:44:12,953 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 10:44:13,054 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 10:44:13,056 django.server INFO "GET /static/img/left.png HTTP/1.1" 304 0
+2024-08-30 10:44:13,057 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 304 0
+2024-08-30 10:44:13,063 django.server INFO "GET /static/img/again.png HTTP/1.1" 304 0
+2024-08-30 10:44:13,067 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 304 0
+2024-08-30 10:44:13,072 django.server INFO "GET /static/img/check.png HTTP/1.1" 304 0
+2024-08-30 10:44:21,377 django INFO : 주문수량 : 0
+2024-08-30 10:44:21,592 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 10:44:21,690 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 10:44:21,691 django.server INFO "GET /static/img/end.png HTTP/1.1" 304 0
+2024-08-30 10:44:21,694 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 304 0
+2024-08-30 10:44:23,762 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:00:39,583 django INFO : 초기협동부팅
+2024-08-30 13:00:39,587 django INFO : 협동전원 On
+2024-08-30 13:00:49,597 django INFO : 협동브레이크 off
+2024-08-30 13:00:49,602 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 13:00:49,621 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:01:00,772 django.request WARNING Not Found: /favicon.ico
+2024-08-30 13:01:00,773 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 13:01:05,616 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:01:05,670 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:01:05,670 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:01:05,678 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:01:05,680 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:01:05,680 django.server INFO "GET /static/img/voice--white.png HTTP/1.1" 200 10041
+2024-08-30 13:01:06,030 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:01:07,514 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:01:07,604 django.server INFO "GET /static/img/left.png HTTP/1.1" 304 0
+2024-08-30 13:01:07,607 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:01:07,608 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 304 0
+2024-08-30 13:01:07,610 django.server INFO "GET /static/img/again.png HTTP/1.1" 304 0
+2024-08-30 13:01:07,613 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 304 0
+2024-08-30 13:01:07,614 django.server INFO "GET /static/img/check.png HTTP/1.1" 304 0
+2024-08-30 13:01:09,397 django INFO : 주문수량 : 3
+2024-08-30 13:01:09,606 django.server INFO "GET /Ramen/index05/?count=3 HTTP/1.1" 200 1537
+2024-08-30 13:01:09,629 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 13:01:09,631 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 304 0
+2024-08-30 13:01:09,631 django.server INFO "GET /static/img/end.png HTTP/1.1" 304 0
+2024-08-30 13:01:11,702 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:05:15,882 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:05:16,960 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:05:17,837 django INFO : 주문수량 : 0
+2024-08-30 13:05:18,045 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:05:20,088 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:05:55,293 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:05:55,789 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:06:00,065 django INFO : 주문수량 : 5
+2024-08-30 13:06:00,277 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 13:06:02,315 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:06:29,696 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:06:30,416 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:06:32,275 django INFO : 주문수량 : 0
+2024-08-30 13:06:32,489 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:06:34,531 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:06:35,238 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:06:37,088 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:06:38,572 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:06:39,618 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:06:48,628 django INFO : 주문수량 : 0
+2024-08-30 13:06:48,839 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:06:50,885 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:06:56,208 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:06:56,359 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:06:56,372 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:06:56,375 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:06:56,377 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:06:56,379 django.server INFO "GET /static/img/voice--white.png HTTP/1.1" 200 10041
+2024-08-30 13:06:56,634 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:06:58,514 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:06:58,574 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 3293
+2024-08-30 13:06:58,575 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:06:58,588 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:06:58,590 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:06:58,593 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:06:58,598 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:06:58,601 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:06:58,897 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:07:02,903 django INFO : 주문수량 : 0
+2024-08-30 13:07:03,113 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:07:03,234 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:07:03,239 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 2602
+2024-08-30 13:07:03,245 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 13:07:03,245 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 13:07:03,531 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:07:05,429 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:07:05,547 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:07:05,549 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-30 13:07:05,550 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:07:05,553 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:07:30,388 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:07:33,676 django INFO : 초기협동부팅
+2024-08-30 13:07:33,686 django INFO : 협동전원 On
+2024-08-30 13:07:43,695 django INFO : 협동브레이크 off
+2024-08-30 13:07:43,701 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 13:07:45,419 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:07:45,764 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2009
+2024-08-30 13:11:40,187 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:11:41,988 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:12:05,197 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:12:05,219 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 304 0
+2024-08-30 13:12:05,228 django.request WARNING Not Found: /favicon.ico
+2024-08-30 13:12:05,228 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 13:12:07,024 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:12:07,050 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:12:07,056 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 304 0
+2024-08-30 13:12:08,263 django INFO : 주문수량 : 0
+2024-08-30 13:12:08,474 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:12:08,521 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 304 0
+2024-08-30 13:12:10,592 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:12:10,620 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:12:21,298 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:12:27,386 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:12:30,245 django INFO : 주문수량 : 0
+2024-08-30 13:12:30,456 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:12:32,580 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:12:59,911 django INFO : 주문수량 : 0
+2024-08-30 13:13:00,126 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:13:02,319 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:13:35,216 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:13:36,410 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:13:38,268 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:14:23,056 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:14:32,003 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:14:32,979 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:14:33,591 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:14:34,385 django INFO : 주문수량 : 0
+2024-08-30 13:14:34,600 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:14:36,648 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:14:53,541 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:14:54,797 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:14:55,444 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:14:56,583 django INFO : 주문수량 : 0
+2024-08-30 13:14:56,794 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:14:58,866 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:18:46,371 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:18:47,362 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:18:50,248 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1695
+2024-08-30 13:18:50,297 django.server WARNING "GET /static/img/ABIMAN-CI-bagic.png%3Fv%3D1.0 HTTP/1.1" 404 1956
+2024-08-30 13:19:10,233 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:19:12,907 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:19:17,764 django INFO : 주문수량 : 0
+2024-08-30 13:19:17,976 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:19:20,165 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1695
+2024-08-30 13:19:20,232 django.server WARNING "GET /static/img/ABIMAN-CI-bagic.png%3Fv%3D1.0 HTTP/1.1" 404 1956
+2024-08-30 13:20:49,454 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:20:50,831 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:21:00,976 django INFO : 주문수량 : 0
+2024-08-30 13:21:01,191 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:21:03,324 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1685
+2024-08-30 13:23:40,121 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:23:40,996 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:23:43,828 django INFO : 주문수량 : 0
+2024-08-30 13:23:44,038 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:23:46,201 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:24:14,604 django INFO : 초기협동부팅
+2024-08-30 13:24:14,607 django INFO : 협동전원 On
+2024-08-30 13:24:24,618 django INFO : 협동브레이크 off
+2024-08-30 13:24:24,626 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 13:24:33,693 django INFO : 초기협동부팅
+2024-08-30 13:24:33,695 django INFO : 협동전원 On
+2024-08-30 13:24:43,705 django INFO : 협동브레이크 off
+2024-08-30 13:24:43,710 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 13:24:43,845 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-30 13:24:43,854 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:24:43,871 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:24:43,891 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:24:45,139 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:24:51,615 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:24:51,637 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:24:51,639 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:24:51,729 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:24:51,762 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:24:51,772 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:24:55,046 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:24:55,110 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:24:55,110 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 3293
+2024-08-30 13:24:55,115 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:24:55,132 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:24:55,132 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:24:55,140 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:24:58,539 django INFO : 주문수량 : 0
+2024-08-30 13:24:58,758 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:24:58,806 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 2602
+2024-08-30 13:24:58,806 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 13:24:58,811 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 13:25:00,835 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:27:13,534 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:27:15,100 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:27:21,553 django INFO : 주문수량 : 0
+2024-08-30 13:27:21,764 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:27:23,915 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:27:51,585 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:27:52,733 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:27:57,348 django INFO : 주문수량 : 0
+2024-08-30 13:27:57,567 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:27:59,683 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:28:06,755 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:28:07,613 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:28:59,643 django INFO : 초기협동부팅
+2024-08-30 13:28:59,647 django INFO : 협동전원 On
+2024-08-30 13:29:09,657 django INFO : 협동브레이크 off
+2024-08-30 13:29:09,662 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 13:29:13,348 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:29:14,939 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:29:20,084 django INFO : 주문수량 : 0
+2024-08-30 13:29:20,299 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:29:22,433 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:29:39,908 django INFO : 주문수량 : 0
+2024-08-30 13:29:40,123 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:29:42,178 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:29:42,210 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:29:46,635 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:29:46,664 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-30 13:29:46,668 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:29:46,709 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:29:46,722 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:29:49,112 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:30:06,241 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:30:07,136 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:30:07,167 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:30:07,170 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:30:07,235 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:30:07,314 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:30:07,339 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:30:08,113 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:30:08,141 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5657
+2024-08-30 13:30:08,144 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:30:08,160 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:30:08,160 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:30:08,163 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:30:08,164 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:30:17,233 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:30:17,351 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:30:17,353 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:30:17,362 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:30:17,364 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:30:17,655 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:30:19,132 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:30:19,199 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:30:19,199 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5657
+2024-08-30 13:30:19,204 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:30:19,209 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:30:19,209 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:30:19,217 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:30:19,218 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:30:19,516 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:30:41,190 django INFO : 주문수량 : 5
+2024-08-30 13:30:41,404 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 13:30:41,456 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 13:30:41,503 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 13:30:41,505 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 13:30:43,550 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:30:53,649 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:30:55,161 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:30:55,197 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:30:59,915 django INFO : 주문수량 : 4
+2024-08-30 13:31:00,127 django.server INFO "GET /Ramen/index05/?count=4 HTTP/1.1" 200 1537
+2024-08-30 13:31:00,253 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 13:31:02,276 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:31:03,498 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:31:04,487 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:31:14,097 django INFO : 주문수량 : 5
+2024-08-30 13:31:14,307 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 13:31:16,437 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:31:16,477 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:31:54,967 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:31:55,065 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-30 13:31:55,076 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:31:55,079 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:31:55,081 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:31:56,355 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:31:56,364 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:31:56,470 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:31:56,470 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:31:56,482 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:31:56,483 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:31:56,740 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:31:57,656 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:31:57,823 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:31:57,824 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5657
+2024-08-30 13:31:57,825 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:31:57,830 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:31:57,833 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:31:57,844 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:31:57,845 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:31:58,157 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:31:58,970 django INFO : 주문수량 : 0
+2024-08-30 13:31:59,183 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:31:59,325 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:31:59,329 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 13:31:59,335 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 13:31:59,337 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 13:31:59,620 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:32:01,904 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:32:01,986 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:32:01,987 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-30 13:32:01,989 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:32:01,990 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:32:03,248 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:33:07,867 django INFO : 초기협동부팅
+2024-08-30 13:33:07,870 django INFO : 협동전원 On
+2024-08-30 13:33:17,880 django INFO : 협동브레이크 off
+2024-08-30 13:33:17,887 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 13:33:18,022 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:33:18,022 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 3859
+2024-08-30 13:33:18,037 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:33:18,050 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:33:19,677 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:33:32,521 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:33:32,545 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:33:32,547 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:33:32,613 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:33:32,689 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:33:32,713 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:33:34,539 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:33:34,573 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5657
+2024-08-30 13:33:34,573 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:33:34,579 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:33:34,627 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:33:34,627 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:33:34,631 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:33:38,526 django INFO : 주문수량 : 1
+2024-08-30 13:33:38,738 django.server INFO "GET /Ramen/index05/?count=1 HTTP/1.1" 200 1537
+2024-08-30 13:33:38,769 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 13:33:38,769 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 13:33:38,774 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 13:33:40,879 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:38:43,958 django.request WARNING Not Found: /favicon.ico
+2024-08-30 13:38:43,959 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 13:38:46,093 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:38:46,776 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:38:46,813 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:38:47,449 django INFO : 주문수량 : 0
+2024-08-30 13:38:47,659 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:38:47,706 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 13:38:49,750 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:38:49,786 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 13:39:27,674 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:39:27,773 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:39:27,775 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:39:27,776 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:39:27,777 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:39:28,065 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:39:29,573 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:39:29,655 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:39:29,660 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5657
+2024-08-30 13:39:29,696 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:39:29,699 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:39:29,701 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:39:29,704 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:39:29,706 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:39:29,936 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:39:31,262 django INFO : 주문수량 : 0
+2024-08-30 13:39:31,479 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:39:31,685 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:39:31,686 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 13:39:31,698 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 13:39:31,699 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 13:39:31,950 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:39:33,972 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:39:34,029 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 13:39:34,032 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 13:39:34,035 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 13:39:34,036 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 13:39:35,252 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 13:39:44,289 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:39:45,021 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:39:45,699 django INFO : 주문수량 : 0
+2024-08-30 13:39:45,910 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:39:47,967 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:39:47,997 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:39:52,028 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:39:56,480 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:39:56,542 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:39:56,544 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 13:39:56,562 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 13:39:56,564 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 13:39:56,863 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:39:58,985 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:39:59,037 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 13:39:59,041 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5657
+2024-08-30 13:39:59,052 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 13:39:59,053 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 13:39:59,055 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 13:39:59,062 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 13:39:59,064 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 13:39:59,349 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 13:40:01,482 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:40:01,524 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:43:39,819 django INFO : 주문수량 : 0
+2024-08-30 13:43:40,032 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:43:40,079 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 13:43:42,113 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:43:42,144 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:43:43,550 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:43:44,356 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:43:44,401 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5383
+2024-08-30 13:43:47,563 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:43:48,647 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:43:49,367 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:43:49,428 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:43:59,405 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:44:00,305 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:44:01,136 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:44:01,173 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:44:05,390 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:58:48,109 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:58:49,060 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:58:49,098 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 13:58:51,598 django INFO : 주문수량 : 0
+2024-08-30 13:58:51,809 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:58:51,851 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 13:58:53,876 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:58:53,911 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 13:59:15,635 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:59:20,414 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:59:25,175 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:59:27,452 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:59:28,209 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:59:30,269 django INFO : 주문수량 : 4
+2024-08-30 13:59:30,479 django.server INFO "GET /Ramen/index05/?count=4 HTTP/1.1" 200 1537
+2024-08-30 13:59:32,564 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:59:36,420 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:59:37,226 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:59:37,885 django INFO : 주문수량 : 0
+2024-08-30 13:59:38,102 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:59:40,157 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 13:59:41,293 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 13:59:41,931 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 13:59:42,475 django INFO : 주문수량 : 0
+2024-08-30 13:59:42,687 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 13:59:44,815 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:00:02,452 django INFO : 주문수량 : 5
+2024-08-30 14:00:02,666 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 14:00:02,724 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 14:00:02,725 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:00:02,734 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 14:00:02,735 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 14:00:03,027 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:00:05,102 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:00:05,240 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:00:05,240 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:00:05,243 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:00:05,244 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:00:06,295 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:00:33,400 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:00:33,423 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:00:33,425 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:00:33,522 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:00:33,669 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:00:34,987 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:00:52,886 django INFO : 초기협동부팅
+2024-08-30 14:00:52,889 django INFO : 협동전원 On
+2024-08-30 14:01:02,900 django INFO : 협동브레이크 off
+2024-08-30 14:01:02,905 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 14:01:04,943 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:01:04,974 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:01:04,977 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:01:05,036 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:01:05,098 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:01:05,116 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:01:06,429 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:01:06,471 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:01:06,472 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5383
+2024-08-30 14:01:06,477 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:01:06,493 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:01:06,517 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:01:06,550 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:01:07,406 django INFO : 주문수량 : 0
+2024-08-30 14:01:07,619 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:01:07,715 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 14:01:07,716 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 14:01:07,723 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 14:01:09,744 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:02:36,450 django INFO : 초기협동부팅
+2024-08-30 14:02:36,452 django INFO : 협동전원 On
+2024-08-30 14:02:46,461 django INFO : 협동브레이크 off
+2024-08-30 14:02:46,467 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 14:02:46,535 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:02:46,538 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:02:46,539 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:02:46,541 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:02:47,597 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:02:48,839 django.request WARNING Not Found: /favicon.ico
+2024-08-30 14:02:48,839 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 14:02:57,174 django INFO : 초기협동부팅
+2024-08-30 14:02:57,177 django INFO : 협동전원 On
+2024-08-30 14:03:06,174 django INFO : 초기협동부팅
+2024-08-30 14:03:06,177 django INFO : 협동전원 On
+2024-08-30 14:03:07,187 django INFO : 협동브레이크 off
+2024-08-30 14:03:07,193 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 14:03:07,366 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:03:07,418 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:03:07,421 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:03:07,423 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:03:07,426 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:03:07,555 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:03:08,758 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:03:08,795 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5383
+2024-08-30 14:03:08,797 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:03:08,798 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:03:08,803 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:03:08,805 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:03:08,812 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:03:12,287 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:03:16,186 django INFO : 협동브레이크 off
+2024-08-30 14:03:16,191 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 14:03:16,283 django INFO : 주문수량 : 5
+2024-08-30 14:03:16,495 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 14:03:16,726 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 14:03:16,728 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 14:03:16,732 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 14:03:18,774 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:03:19,666 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:04:21,529 django INFO : 초기협동부팅
+2024-08-30 14:04:21,531 django INFO : 협동전원 On
+2024-08-30 14:04:31,542 django INFO : 협동브레이크 off
+2024-08-30 14:04:31,548 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-08-30 14:04:31,674 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:04:31,676 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:04:31,689 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:04:31,707 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:04:34,256 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:04:36,596 django.request WARNING Not Found: /favicon.ico
+2024-08-30 14:04:36,597 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 14:04:59,734 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:05:02,232 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:05:02,276 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:05:02,278 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:05:02,295 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:05:02,411 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:05:02,452 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:05:02,755 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:05:02,944 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 14:05:05,739 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:05:05,779 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5383
+2024-08-30 14:05:05,779 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:05:05,782 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:05:05,830 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:05:05,849 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:05:05,851 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:05:06,683 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:05:06,778 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 14:05:08,744 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:05:09,554 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:05:09,987 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:05:10,872 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:05:11,749 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:05:31,568 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:05:31,740 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:05:31,741 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:05:31,745 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:05:31,746 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:05:32,002 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:05:34,984 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:05:35,064 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:05:35,068 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5383
+2024-08-30 14:05:35,068 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:05:35,076 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:05:35,080 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:05:35,086 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:05:35,092 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:05:35,347 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:05:42,907 django INFO : 주문수량 : 4
+2024-08-30 14:05:43,119 django.server INFO "GET /Ramen/index05/?count=4 HTTP/1.1" 200 1537
+2024-08-30 14:05:43,166 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 14:05:45,194 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:05:52,699 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:05:53,697 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:31:17,266 django INFO : 주문수량 : 0
+2024-08-30 14:31:17,479 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:31:17,550 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 14:31:17,550 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:31:17,557 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 14:31:17,559 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 14:31:17,833 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:31:20,070 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:31:20,165 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:31:20,166 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:31:20,167 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:31:20,168 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:31:21,337 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:32:06,584 django.request WARNING Not Found: /favicon.ico
+2024-08-30 14:32:06,585 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2566
+2024-08-30 14:32:07,125 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:32:08,191 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:32:08,218 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5978
+2024-08-30 14:32:12,345 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:32:12,377 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 14:32:13,091 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:32:13,983 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:32:14,015 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 14:32:20,427 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:32:20,504 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:32:20,504 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:32:20,523 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:32:20,523 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:32:20,822 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:32:22,367 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:32:22,434 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5978
+2024-08-30 14:32:22,435 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:32:22,439 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:32:22,440 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:32:22,444 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:32:22,454 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:32:22,456 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:32:22,715 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:35:32,134 django INFO : 주문수량 : 0
+2024-08-30 14:35:32,350 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:35:32,439 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 14:35:34,466 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:35:35,270 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:35:36,020 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:35:36,061 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5984
+2024-08-30 14:35:43,919 django INFO : 주문수량 : 5
+2024-08-30 14:35:44,131 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 14:35:46,185 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:35:49,943 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:35:53,850 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:35:53,884 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 14:35:59,731 django INFO : 주문수량 : 0
+2024-08-30 14:35:59,942 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:36:00,001 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 14:36:00,015 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:36:00,028 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 14:36:00,030 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 14:36:00,324 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:36:02,653 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:36:02,759 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:36:02,764 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:36:02,766 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:36:02,768 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:36:03,881 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:36:04,644 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:36:04,707 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:36:04,709 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:36:04,712 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:36:04,713 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:36:05,014 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:36:06,066 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:36:06,138 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:36:06,139 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5984
+2024-08-30 14:36:06,158 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:36:06,162 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:36:06,166 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:36:06,175 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:36:06,177 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:36:06,464 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:37:43,652 django INFO : 주문수량 : 0
+2024-08-30 14:37:43,863 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:37:45,927 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:37:45,962 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 14:37:47,269 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:37:48,089 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:37:48,126 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6255
+2024-08-30 14:38:00,875 django INFO : 주문수량 : 0
+2024-08-30 14:38:01,085 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:38:01,245 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 14:38:01,260 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:38:01,266 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 14:38:01,272 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 14:38:01,550 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:38:03,780 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:38:04,053 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 14:38:04,056 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 14:38:04,057 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 14:38:04,059 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 14:38:05,189 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 14:38:05,465 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:38:05,568 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:38:05,570 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 14:38:05,570 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 14:38:05,571 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 14:38:05,867 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:38:07,501 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:38:07,571 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 14:38:07,574 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 14:38:07,574 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6255
+2024-08-30 14:38:07,575 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 14:38:07,578 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 14:38:07,592 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 14:38:07,592 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 14:38:07,878 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 14:39:58,282 django INFO : 주문수량 : 0
+2024-08-30 14:39:58,497 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 14:40:00,562 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 14:40:02,551 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 14:40:04,820 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 14:40:04,853 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 14:40:08,082 django INFO : 주문수량 : 6
+2024-08-30 14:40:08,291 django.server INFO "GET /Ramen/index05/?count=6 HTTP/1.1" 200 1537
+2024-08-30 14:40:10,447 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:06:12,276 django INFO : 주문수량 : 0
+2024-08-30 15:06:15,419 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:06:15,555 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:06:15,559 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:06:15,562 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:06:15,563 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:06:16,791 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:06:17,023 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:06:17,203 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:06:17,204 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:06:17,211 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:06:17,213 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:06:17,509 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:06:19,958 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:06:20,054 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:06:20,057 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:06:20,057 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5368
+2024-08-30 15:06:20,060 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:06:20,064 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:06:20,075 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:06:20,078 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:06:20,364 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:06:23,059 django INFO : 주문수량 : 0
+2024-08-30 15:06:23,270 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:06:23,326 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:06:23,330 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 15:06:23,335 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 15:06:23,338 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 15:06:23,605 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:06:25,566 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:06:25,647 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:06:25,651 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:06:25,652 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:06:25,654 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:06:26,788 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:06:39,256 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:06:40,071 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:06:40,133 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5368
+2024-08-30 15:06:51,543 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:06:51,583 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 15:06:52,480 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:06:53,190 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:06:53,230 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6255
+2024-08-30 15:07:08,890 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:07:08,953 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:07:08,957 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:07:08,973 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:07:08,974 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:07:09,224 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:07:14,080 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:07:14,198 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6255
+2024-08-30 15:07:14,205 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:07:14,209 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:07:14,212 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:07:14,213 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:07:14,217 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:07:14,220 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:07:14,514 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:08:30,576 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:08:31,206 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:08:31,977 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:08:32,017 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5339
+2024-08-30 15:09:00,779 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:09:00,879 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:09:00,882 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:09:00,885 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:09:00,886 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:09:02,011 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:09:02,359 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:09:02,448 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:09:02,450 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:09:02,457 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:09:02,459 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:09:02,738 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:09:03,676 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:09:03,736 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:09:03,739 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5339
+2024-08-30 15:09:03,739 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:09:03,752 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:09:03,756 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:09:03,764 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:09:03,765 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:09:04,086 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:11:25,517 django INFO : 주문수량 : 0
+2024-08-30 15:11:25,739 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:11:25,927 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:11:25,930 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 15:11:25,935 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 15:11:25,939 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 15:11:26,237 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:11:28,554 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:11:28,634 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:11:28,638 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:11:28,638 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:11:28,639 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:11:29,853 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:12:28,223 django INFO : 주문수량 : 0
+2024-08-30 15:12:28,438 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:12:28,519 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 15:12:30,548 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:12:31,300 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:12:32,106 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:12:32,141 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 5870
+2024-08-30 15:12:39,473 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:12:40,313 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:12:41,185 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:12:41,242 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6255
+2024-08-30 15:12:50,324 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:12:50,493 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:12:50,499 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:12:50,500 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:12:50,503 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:12:50,756 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:12:52,067 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:12:52,144 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:12:52,146 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6255
+2024-08-30 15:12:52,147 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:12:52,154 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:12:52,158 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:12:52,168 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:12:52,169 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:12:52,446 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:14:06,775 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:14:07,400 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:14:07,957 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:14:07,998 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6231
+2024-08-30 15:14:11,779 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:14:11,931 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:14:11,935 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:14:11,935 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:14:11,937 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:14:13,095 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:14:14,013 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:14:14,088 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:14:14,093 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:14:14,093 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:14:14,094 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:14:14,375 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:14:16,814 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:14:16,882 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:14:16,882 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6231
+2024-08-30 15:14:16,886 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:14:16,890 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:14:16,890 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:14:16,902 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:14:16,902 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:14:17,218 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:09,077 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:17:09,109 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 15:17:09,635 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:17:10,228 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:17:10,256 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6518
+2024-08-30 15:17:16,457 django INFO : 주문수량 : 0
+2024-08-30 15:17:16,672 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:17:16,765 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 15:17:16,768 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:16,795 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 15:17:16,795 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 15:17:17,099 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:18,997 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:17:19,187 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:17:19,194 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:17:19,197 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:17:19,197 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:17:20,300 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:17:21,114 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:17:21,167 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:17:21,175 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:21,178 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:17:21,183 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:17:21,481 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:23,304 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:17:23,359 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:23,361 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6518
+2024-08-30 15:17:23,364 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:17:23,366 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:17:23,370 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:17:23,379 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:17:23,380 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:17:23,689 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:40,915 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:17:41,007 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:17:41,009 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:17:41,009 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:17:41,011 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:17:42,130 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:17:42,217 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:17:42,426 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:42,428 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:17:42,429 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:17:42,431 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:17:42,714 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:43,969 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:17:44,066 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6588
+2024-08-30 15:17:44,068 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:44,073 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:17:44,077 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:17:44,078 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:17:44,087 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:17:44,088 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:17:44,397 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:54,267 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:17:54,392 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:17:54,394 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:17:54,396 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:17:54,397 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:17:55,508 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:17:55,824 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:17:55,895 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:55,896 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:17:55,901 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:17:55,903 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:17:56,186 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:17:57,285 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:17:57,449 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:17:57,454 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:17:57,454 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6235
+2024-08-30 15:17:57,461 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:17:57,463 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:17:57,470 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:17:57,471 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:17:57,786 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:19:36,058 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:19:36,128 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:19:36,132 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:19:36,133 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:19:36,133 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:19:37,095 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:19:37,289 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:19:37,634 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:19:37,635 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:19:37,642 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:19:37,644 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:19:37,954 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:19:38,567 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:19:38,634 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:19:38,637 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6668
+2024-08-30 15:19:38,638 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:19:38,640 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:19:38,641 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:19:38,656 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:19:38,657 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:19:38,917 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:19:55,770 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:19:55,861 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:19:55,862 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:19:55,875 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:19:55,876 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:19:56,982 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:19:57,541 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:19:57,609 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:19:57,611 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:19:57,614 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:19:57,614 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:19:57,902 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:19:58,568 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:19:58,640 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6636
+2024-08-30 15:19:58,641 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:19:58,643 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:19:58,646 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:19:58,649 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:19:58,663 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:19:58,663 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:19:58,985 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:20:01,405 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:20:02,036 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:20:02,769 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:20:02,814 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6636
+2024-08-30 15:22:20,003 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:22:20,102 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:22:20,104 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:22:20,106 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:22:20,106 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:22:21,159 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:22:21,189 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:22:21,393 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:22:21,394 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:22:21,396 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:22:21,407 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:22:21,684 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:22:22,268 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:22:22,333 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:22:22,334 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6808
+2024-08-30 15:22:22,335 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:22:22,336 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:22:22,339 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:22:22,352 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:22:22,354 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:22:22,618 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:23:09,482 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:23:10,613 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:23:10,706 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:23:10,708 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:23:10,729 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:23:10,732 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:23:11,846 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:23:11,960 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:23:12,165 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:23:12,169 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:23:12,170 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:23:12,172 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:23:12,482 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:23:13,138 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:23:13,203 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6636
+2024-08-30 15:23:13,204 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:23:13,213 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:23:13,219 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:23:13,219 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:23:13,229 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:23:13,231 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:23:13,515 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:23:25,057 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:23:25,644 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:23:25,679 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6878
+2024-08-30 15:23:48,746 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:23:48,837 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:23:48,838 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:23:48,860 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:23:48,863 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:23:49,938 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:23:50,093 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:23:50,192 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:23:50,193 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:23:50,201 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:23:50,203 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:23:50,474 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:23:51,547 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:23:51,678 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:23:51,678 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6636
+2024-08-30 15:23:51,682 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:23:51,684 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:23:51,687 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:23:51,694 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:23:51,696 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:23:52,007 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:24:08,093 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:24:08,162 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6636
+2024-08-30 15:24:08,167 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:24:08,193 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:24:08,195 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:24:08,199 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:24:08,205 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:24:08,206 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:24:08,503 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:24:15,670 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:24:15,707 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6637
+2024-08-30 15:24:15,711 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:24:15,717 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:24:15,720 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:24:15,722 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:24:15,746 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:24:15,748 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:24:16,072 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:24:18,710 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:24:19,243 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:24:19,997 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:24:20,033 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6637
+2024-08-30 15:25:54,934 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:25:55,046 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:25:55,049 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:25:55,052 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:25:55,053 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:25:56,115 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:25:56,203 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:25:56,280 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:25:56,281 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:25:56,293 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:25:56,296 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:25:56,608 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:25:57,306 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:25:57,439 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:25:57,440 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6686
+2024-08-30 15:25:57,448 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:25:57,451 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:25:57,452 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:25:57,459 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:25:57,462 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:25:57,776 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:27:24,022 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:27:24,114 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:27:24,118 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:27:24,118 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:27:24,121 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:27:24,924 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:27:25,013 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:27:25,016 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:27:25,020 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:27:25,020 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:27:25,324 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:27:25,889 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:27:25,941 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6704
+2024-08-30 15:27:25,942 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:27:25,944 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:27:25,947 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:27:25,949 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:27:25,960 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:27:25,963 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:27:26,282 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:27:55,557 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:27:55,608 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6728
+2024-08-30 15:27:55,610 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:27:55,613 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:27:55,617 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:27:55,618 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:27:55,628 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:27:55,628 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:27:55,957 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:27:57,415 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:27:57,480 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:27:57,481 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:27:57,497 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:27:57,500 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:27:58,492 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:27:58,561 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:27:58,564 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:27:58,566 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:27:58,570 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:27:58,871 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:27:59,426 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:27:59,488 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6728
+2024-08-30 15:27:59,496 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:27:59,498 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:27:59,504 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:27:59,508 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:27:59,515 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:27:59,516 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:27:59,785 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:28:01,079 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:28:01,114 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 15:28:01,740 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:28:02,305 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:28:02,360 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6728
+2024-08-30 15:28:30,680 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:28:30,739 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:28:30,741 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6737
+2024-08-30 15:28:30,779 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:28:30,781 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:28:30,785 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:28:30,792 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:28:30,794 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:28:31,084 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:28:32,502 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:28:32,635 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:28:32,638 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:28:32,639 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:28:32,639 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:28:33,716 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:28:34,542 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:28:34,700 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:28:34,707 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:28:34,708 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:28:34,711 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:28:34,992 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:28:35,984 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:28:36,183 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6737
+2024-08-30 15:28:36,184 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:28:36,194 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:28:36,195 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:28:36,199 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:28:36,204 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:28:36,206 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:28:36,469 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:29:26,545 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:29:26,589 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6737
+2024-08-30 15:29:26,589 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:29:26,612 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:29:26,618 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:29:26,619 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:29:26,625 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:29:26,628 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:29:26,928 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:29:36,088 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:29:36,155 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:29:36,157 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6737
+2024-08-30 15:29:36,159 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:29:36,161 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:29:36,165 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:29:36,177 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:29:36,178 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:29:36,471 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:29:47,733 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:29:49,350 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:29:50,007 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:29:50,043 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6639
+2024-08-30 15:30:09,716 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:30:10,284 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:30:10,808 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:30:10,836 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6645
+2024-08-30 15:30:34,024 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:30:34,561 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:30:35,145 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2182
+2024-08-30 15:30:35,172 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6639
+2024-08-30 15:34:02,326 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:34:02,845 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:34:03,404 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2185
+2024-08-30 15:34:03,425 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 15:36:17,551 django INFO : 주문수량 : 0
+2024-08-30 15:36:17,766 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:36:18,014 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:36:18,016 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-08-30 15:36:18,023 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 554
+2024-08-30 15:36:18,026 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-08-30 15:36:18,299 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:36:25,031 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:36:25,099 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-08-30 15:36:25,101 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4415
+2024-08-30 15:36:25,102 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-08-30 15:36:25,106 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-08-30 15:36:26,289 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-08-30 15:38:28,852 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:38:28,958 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:38:28,960 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-08-30 15:38:28,964 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-08-30 15:38:28,968 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-08-30 15:38:29,279 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:38:29,957 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2185
+2024-08-30 15:38:30,013 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-08-30 15:38:30,014 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6904
+2024-08-30 15:38:30,018 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-08-30 15:38:30,022 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-08-30 15:38:30,023 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-08-30 15:38:30,031 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-08-30 15:38:30,033 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-08-30 15:38:30,348 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-08-30 15:38:38,063 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:38:39,101 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:38:39,796 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2185
+2024-08-30 15:38:39,851 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6904
+2024-08-30 15:40:35,805 django INFO : 주문수량 : 5
+2024-08-30 15:40:36,022 django.server INFO "GET /Ramen/index05/?count=5 HTTP/1.1" 200 1537
+2024-08-30 15:40:36,084 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 304 0
+2024-08-30 15:40:38,144 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:40:38,183 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4524
+2024-08-30 15:41:10,618 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:41:11,575 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2185
+2024-08-30 15:41:11,638 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 15:41:13,150 django INFO : 주문수량 : 0
+2024-08-30 15:41:13,360 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:41:15,700 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:41:15,735 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-08-30 15:41:40,131 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:41:42,800 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2185
+2024-08-30 15:41:42,836 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 304 0
+2024-08-30 15:41:43,482 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:41:43,530 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4524
+2024-08-30 15:42:43,759 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2084
+2024-08-30 15:42:44,425 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2185
+2024-08-30 15:42:44,475 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6991
+2024-08-30 15:42:47,532 django INFO : 주문수량 : 0
+2024-08-30 15:42:47,747 django.server INFO "GET /Ramen/index05/?count=0 HTTP/1.1" 200 1537
+2024-08-30 15:42:49,849 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1676
+2024-08-30 15:42:49,890 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4509
