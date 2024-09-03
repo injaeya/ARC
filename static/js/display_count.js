@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // 일정 시간이 지나면 redirectUrl로 리다이렉트합니다.
     setTimeout(function() {
         window.location.href = redirectUrl + `?count=${count}`;
-    }, 2000);  // 2초 후 리다이렉트
+    }, 5000);  // 2초 후 리다이렉트
 });

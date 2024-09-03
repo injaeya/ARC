@@ -114,7 +114,8 @@ TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
-USE_TZ = True
+#코드중에 타임존을 사용할때 전체적으로 다 time_zone으로 사용가능하게 변경함.
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
