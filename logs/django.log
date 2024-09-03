@@ -4931,3 +4931,207 @@ The above exception was the direct cause of the following exception:
 2024-09-03 10:24:47,750 django INFO django.db.utils.OperationalError: table Ramen_mymodel has no column named date
 
 2024-09-03 10:24:47,751 django.server ERROR "POST /Ramen/db_index00/ HTTP/1.1" 500 139197
+2024-09-03 11:05:31,241 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 11:05:33,100 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-09-03 11:05:33,182 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 11:05:33,185 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-09-03 11:05:33,198 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-09-03 11:05:33,203 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-09-03 11:05:33,477 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 11:05:38,251 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2552
+2024-09-03 11:05:38,309 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6985
+2024-09-03 11:05:38,311 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 11:05:38,317 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-09-03 11:05:38,321 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-09-03 11:05:38,323 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-09-03 11:05:38,331 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-09-03 11:05:38,332 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-09-03 11:05:38,631 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 11:05:42,164 django.server INFO "GET /Ramen/db_index00/?count=2 HTTP/1.1" 200 1006
+2024-09-03 11:05:42,209 django.server INFO "GET /static/css/db_style00.css HTTP/1.1" 200 1048
+2024-09-03 11:05:47,532 django INFO Traceback (most recent call last):
+
+2024-09-03 11:05:47,532 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+
+2024-09-03 11:05:47,532 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+
+2024-09-03 11:05:47,533 django INFO sqlite3.OperationalError: table Ramen_mymodel has no column named date
+
+2024-09-03 11:05:47,533 django INFO 
+The above exception was the direct cause of the following exception:
+
+
+2024-09-03 11:05:47,534 django INFO Traceback (most recent call last):
+
+2024-09-03 11:05:47,535 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-09-03 11:05:47,535 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-09-03 11:05:47,535 django INFO   File "/app/Ramen/views/db_index00.py", line 20, in login_view
+    my_model_instance.save()
+
+2024-09-03 11:05:47,536 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+
+2024-09-03 11:05:47,536 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+
+2024-09-03 11:05:47,536 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+
+2024-09-03 11:05:47,537 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+
+2024-09-03 11:05:47,537 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+
+2024-09-03 11:05:47,538 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+
+2024-09-03 11:05:47,538 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+
+2024-09-03 11:05:47,539 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+
+2024-09-03 11:05:47,539 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+
+2024-09-03 11:05:47,539 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+
+2024-09-03 11:05:47,540 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+
+2024-09-03 11:05:47,540 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+
+2024-09-03 11:05:47,541 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+
+2024-09-03 11:05:47,541 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+
+2024-09-03 11:05:47,541 django INFO django.db.utils.OperationalError: table Ramen_mymodel has no column named date
+
+2024-09-03 11:05:47,527 django.request ERROR Internal Server Error: /Ramen/db_index00/
+2024-09-03 11:05:47,544 django INFO Traceback (most recent call last):
+
+2024-09-03 11:05:47,544 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+
+2024-09-03 11:05:47,544 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+
+2024-09-03 11:05:47,544 django INFO sqlite3.OperationalError: table Ramen_mymodel has no column named date
+
+2024-09-03 11:05:47,545 django INFO 
+The above exception was the direct cause of the following exception:
+
+
+2024-09-03 11:05:47,545 django INFO Traceback (most recent call last):
+
+2024-09-03 11:05:47,545 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+
+2024-09-03 11:05:47,546 django INFO   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+
+2024-09-03 11:05:47,546 django INFO   File "/app/Ramen/views/db_index00.py", line 20, in login_view
+    my_model_instance.save()
+
+2024-09-03 11:05:47,547 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+
+2024-09-03 11:05:47,547 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+
+2024-09-03 11:05:47,547 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+
+2024-09-03 11:05:47,548 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+
+2024-09-03 11:05:47,548 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+
+2024-09-03 11:05:47,548 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+
+2024-09-03 11:05:47,549 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+
+2024-09-03 11:05:47,549 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+
+2024-09-03 11:05:47,549 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+
+2024-09-03 11:05:47,549 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+
+2024-09-03 11:05:47,550 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+
+2024-09-03 11:05:47,550 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+
+2024-09-03 11:05:47,550 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+
+2024-09-03 11:05:47,551 django INFO   File "/usr/local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+
+2024-09-03 11:05:47,551 django INFO django.db.utils.OperationalError: table Ramen_mymodel has no column named date
+
+2024-09-03 11:05:47,552 django.server ERROR "POST /Ramen/db_index00/ HTTP/1.1" 500 139431
+2024-09-03 11:20:33,089 django.utils.autoreload INFO /app/Ramen/migrations/0002_mymodel.py changed, reloading.
+2024-09-03 11:20:33,554 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 11:21:08,784 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 11:21:09,315 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 11:21:47,934 django.utils.autoreload INFO /app/Ramen/views/db_index00.py changed, reloading.
+2024-09-03 11:21:48,428 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 11:22:57,271 django INFO : 초기협동부팅
+2024-09-03 11:22:57,275 django INFO : 협동전원 On
+2024-09-03 11:23:07,286 django INFO : 협동브레이크 off
+2024-09-03 11:23:07,297 django.server INFO "GET / HTTP/1.1" 200 1670
+2024-09-03 11:23:07,389 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4602
+2024-09-03 11:23:07,391 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-09-03 11:23:07,391 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-09-03 11:23:07,391 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-09-03 11:23:08,592 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-09-03 11:23:16,244 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-09-03 11:23:16,294 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 11:23:16,298 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-09-03 11:23:16,300 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-09-03 11:23:16,300 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-09-03 11:23:16,633 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 11:23:17,555 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2552
+2024-09-03 11:23:17,598 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6985
+2024-09-03 11:23:17,601 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 11:23:17,607 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-09-03 11:23:17,613 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-09-03 11:23:17,615 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-09-03 11:23:17,620 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-09-03 11:23:17,623 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-09-03 11:23:17,912 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 11:23:20,654 django.server INFO "GET /Ramen/db_index00/?count=4 HTTP/1.1" 200 1006
+2024-09-03 11:23:20,725 django.server INFO "GET /static/css/db_style00.css HTTP/1.1" 200 1048
+2024-09-03 11:23:24,865 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-09-03 11:23:24,875 django INFO : 주문수량 : 4
+2024-09-03 11:23:25,088 django.server INFO "GET /Ramen/index05/4/20190118/ HTTP/1.1" 200 1544
+2024-09-03 11:23:25,159 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-09-03 11:23:25,164 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 11:23:25,172 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-09-03 11:23:25,175 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-09-03 11:23:25,461 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 11:23:27,447 django.server INFO "GET /Ramen/?count=4 HTTP/1.1" 200 1676
+2024-09-03 11:23:27,587 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4602
+2024-09-03 11:23:27,589 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-09-03 11:23:27,593 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-09-03 11:23:27,594 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-09-03 11:23:28,844 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
