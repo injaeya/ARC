@@ -4711,3 +4711,80 @@ The above exception was the direct cause of the following exception:
 2024-09-03 09:17:59,997 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
 2024-09-03 09:17:59,999 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
 2024-09-03 09:18:01,127 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-09-03 09:24:32,619 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-09-03 09:24:32,681 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-09-03 09:24:32,682 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 09:24:32,683 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-09-03 09:24:32,685 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-09-03 09:24:32,994 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 09:24:34,763 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2552
+2024-09-03 09:24:34,882 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 09:24:34,885 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6985
+2024-09-03 09:24:34,886 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-09-03 09:24:34,888 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-09-03 09:24:34,892 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-09-03 09:24:34,901 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-09-03 09:24:34,902 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-09-03 09:24:35,190 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 09:24:37,978 django.server INFO "GET /Ramen/db_index00/?count=3 HTTP/1.1" 200 1006
+2024-09-03 09:24:38,034 django.server INFO "GET /static/css/db_style00.css HTTP/1.1" 200 1048
+2024-09-03 09:24:41,671 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-09-03 09:24:41,684 django INFO : 주문수량 : 3
+2024-09-03 09:24:41,895 django.server INFO "GET /Ramen/index05/3/20190118/ HTTP/1.1" 200 1544
+2024-09-03 09:24:41,993 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-09-03 09:24:41,995 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 09:24:42,002 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-09-03 09:24:42,005 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-09-03 09:24:42,294 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 09:24:44,264 django.server INFO "GET /Ramen/?count=3 HTTP/1.1" 200 1676
+2024-09-03 09:24:44,418 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-09-03 09:24:44,419 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4602
+2024-09-03 09:24:44,420 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-09-03 09:24:44,421 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-09-03 09:24:45,592 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-09-03 09:42:41,195 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 09:43:56,117 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-09-03 09:43:56,219 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-09-03 09:43:56,219 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 4374
+2024-09-03 09:43:56,220 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 09:43:56,222 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-09-03 09:43:56,583 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 09:43:58,028 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2552
+2024-09-03 09:43:58,087 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 6985
+2024-09-03 09:43:58,089 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 09:43:58,097 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-09-03 09:43:58,099 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-09-03 09:43:58,102 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-09-03 09:43:58,107 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-09-03 09:43:58,108 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-09-03 09:43:58,379 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 09:44:01,684 django.server INFO "GET /Ramen/db_index00/?count=4 HTTP/1.1" 200 1006
+2024-09-03 09:44:01,805 django.server INFO "GET /static/css/db_style00.css HTTP/1.1" 200 1048
+2024-09-03 09:44:05,529 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-09-03 09:44:05,536 django INFO : 주문수량 : 4
+2024-09-03 09:44:05,752 django.server INFO "GET /Ramen/index05/4/20190118/ HTTP/1.1" 200 1544
+2024-09-03 09:44:05,832 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4002
+2024-09-03 09:44:05,835 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-09-03 09:44:05,845 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-09-03 09:44:05,848 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-09-03 09:44:06,129 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-09-03 09:44:08,448 django.server INFO "GET /Ramen/?count=4 HTTP/1.1" 200 1676
+2024-09-03 09:44:08,501 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-09-03 09:44:08,502 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4602
+2024-09-03 09:44:08,504 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-09-03 09:44:08,504 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-09-03 09:44:09,751 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-09-03 09:51:00,284 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 09:51:00,903 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 09:56:59,701 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 09:57:00,096 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 09:58:36,295 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 09:58:36,724 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 09:58:50,280 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 09:58:50,666 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 09:59:09,595 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 09:59:09,967 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 09:59:22,287 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 09:59:22,708 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-03 10:00:52,632 django.utils.autoreload INFO /app/Ramen/models.py changed, reloading.
+2024-09-03 10:00:53,097 django.utils.autoreload INFO Watching for file changes with StatReloader

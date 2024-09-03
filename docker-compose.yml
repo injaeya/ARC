@@ -3,10 +3,11 @@ version: '3'
 services:
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: sh -c "python manage.py runserver 0.0.0.0:8000 & python backup_script.py"
     volumes:
       - .:/app
       - ./logs:/app/logs  # 로그 디렉토리를 호스트와 공유
+      - ./db_backups:/app/db_backups  # 백업 디렉토리를 호스트와 공유
     ports:
       - "30000:8000"
     environment:

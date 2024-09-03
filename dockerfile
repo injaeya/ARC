@@ -24,8 +24,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 프로젝트 파일 복사
 COPY . .
 
+# 백업 스크립트를 Docker 이미지에 복사
+COPY backup_script.py /app/backup_script.py
+
 # 포트 설정
 EXPOSE 8000
 
-# 서버 실행
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# 서버 실행 및 백업 스크립트 실행
+CMD ["sh", "-c", "python manage.py runserver 0.0.0.0:8000 & python backup_script.py"]
