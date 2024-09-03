@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // URL 파라미터에서 count 값을 가져옵니다.
-    const urlParams = new URLSearchParams(window.location.search);
-    const count = urlParams.get('count') || 0;
+    // URL에서 count와 employee_id 값을 가져옵니다.
+    const pathSegments = window.location.pathname.split('/');
+    const count = pathSegments[3] || 0; // count는 URL의 세 번째 세그먼트에 위치합니다.
 
     // count 값을 화면에 표시합니다.
     document.getElementById('displayCount').textContent = count;
 
     // 일정 시간이 지나면 redirectUrl로 리다이렉트합니다.
     setTimeout(function() {
-        window.location.href = redirectUrl;
-    }, 2000);  // 5초 후 리다이렉트
+        window.location.href = redirectUrl + `?count=${count}`;
+    }, 2000);  // 2초 후 리다이렉트
 });
