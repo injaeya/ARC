@@ -28,8 +28,8 @@ user.save()
 
 ## DB data 제거
  - python manage.py
- - from Ramen.models import Mymodel
- - MyModel.objects.all(),delete()
+ - from Ramen.models import MyModel
+ - MyModel.objects.all().delete()
  - exit()
 
 ## QR code

@@ -1,15 +1,18 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abiman | Dining-bot</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/style 04.css' %}">
 </head>
+
 <body>
     <header id="header"></header>
     <div class="page_btn"></div>
@@ -37,20 +40,10 @@
                     <p class="btn">다시주문</p>
                 </a>
                 <!-- 수량 값을 URL 파라미터로 전달 -->
-                <!-- TODO: 확인누르면 사번입력창 및 db전송 구현 -->
                 <a href="#" id="confirm" class="right" data-confirm-url="{% url 'Ramen:db_index00' %}">
                     <img src="{% static '/img/check.png' %}" class="check" alt="#">
-                    <p class="btn">확     인</p>
+                    <p class="btn">확 인</p>
                 </a>
-
-
-                <!-- WARNING : db 테스트 버튼 -->
-                <!-- <a href="{% url 'Ramen:db_index00' %}" class="right">
-                    <img src="{% static '/img/check.png' %}" class="check" alt="#">
-                    <p class="btn">테스트</p>
-                </a> -->
-
-
             </div>
         </div>
     </section>
@@ -58,4 +51,5 @@
     <!-- 외부 JavaScript 파일을 불러옵니다 -->
     <script src="{% static 'js/order_count.js' %}"></script>
 </body>
+
 </html>
